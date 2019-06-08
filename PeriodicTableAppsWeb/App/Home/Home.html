@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+    <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js" type="text/javascript"></script>
+    <link href="../App.css" rel="stylesheet" type="text/css" />
+    <script src="../App.js" type="text/javascript"></script>
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content-header">
+        <div class="padding">
+            <h1>Periodic Table</h1>
+        </div>
+    </div>
+    <div id="content-main">
+        <div class="padding">
+            <img src="../../Images/pd.GIF" height="100" width="100" />
+            <!--<td><strong>Periodic Table </strong></td>-->
+            <p>Description :- Get Atomic Number, Element Name, Symbol, Atomic Weight, Boiling Point, Ionisation Potential, Eletro-negativity, Atomic Radius, Melting Point, Density
+            <p>For example: <u>mercury</u></p>
+            <table>
+                Enter element name:
+                <tr>
+                    <td align="left">
+                        <input id="input" size="30" style="height:25px" value="mercury" />
+                    </td>
+                    <td align="left">
+                        <button style="height:25px" id="GetAtomicNumber">Getdata</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="Result2" style="color:#0099FF"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
